@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18733" started-at="2019-07-16T05:58:54Z" finished-at="2019-07-16T05:59:13Z">
+    <groups>
+      <group name="regression">
+        <method signature="RegressionTests.checkAddComputerPageElements()[pri:2, instance:testautomation.RegressionTests@17046283]" name="checkAddComputerPageElements" class="testautomation.RegressionTests"/>
+        <method signature="RegressionTests.checkAddComputerPageLoaded()[pri:1, instance:testautomation.RegressionTests@17046283]" name="checkAddComputerPageLoaded" class="testautomation.RegressionTests"/>
+        <method signature="RegressionTests.deleteComputer()[pri:6, instance:testautomation.RegressionTests@17046283]" name="deleteComputer" class="testautomation.RegressionTests"/>
+        <method signature="RegressionTests.filterComputerName()[pri:4, instance:testautomation.RegressionTests@17046283]" name="filterComputerName" class="testautomation.RegressionTests"/>
+        <method signature="RegressionTests.updateRecord()[pri:5, instance:testautomation.RegressionTests@17046283]" name="updateRecord" class="testautomation.RegressionTests"/>
+        <method signature="RegressionTests.verifyAddComputerDetails()[pri:3, instance:testautomation.RegressionTests@17046283]" name="verifyAddComputerDetails" class="testautomation.RegressionTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="RegressionTests.checkAddComputerPageElements()[pri:2, instance:testautomation.RegressionTests@17046283]" name="checkAddComputerPageElements" class="testautomation.RegressionTests"/>
+        <method signature="RegressionTests.checkAddComputerPageLoaded()[pri:1, instance:testautomation.RegressionTests@17046283]" name="checkAddComputerPageLoaded" class="testautomation.RegressionTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name=" CRUD operations Regression Tests " duration-ms="18733" started-at="2019-07-16T05:58:54Z" finished-at="2019-07-16T05:59:13Z">
+      <class name="testautomation.RegressionTests">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testautomation.RegressionTests@17046283]" name="initialize" is-config="true" duration-ms="40186" started-at="2019-07-16T05:58:14Z" finished-at="2019-07-16T05:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="checkLandingPageElements()[pri:0, instance:testautomation.RegressionTests@17046283]" name="checkLandingPageElements" is-config="true" duration-ms="1331" started-at="2019-07-16T05:58:54Z" description="Verifies build/application stability before triggering regression" finished-at="2019-07-16T05:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLandingPageElements -->
+        <test-method status="PASS" signature="checkAddComputerPageLoaded()[pri:1, instance:testautomation.RegressionTests@17046283]" name="checkAddComputerPageLoaded" duration-ms="1071" started-at="2019-07-16T05:58:56Z" description="Verifies the Add Computer Page availability" finished-at="2019-07-16T05:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddComputerPageLoaded -->
+        <test-method status="PASS" signature="checkAddComputerPageElements()[pri:2, instance:testautomation.RegressionTests@17046283]" name="checkAddComputerPageElements" duration-ms="1173" started-at="2019-07-16T05:58:57Z" description="Verifies WebElements of Add Computer page" finished-at="2019-07-16T05:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddComputerPageElements -->
+        <test-method status="PASS" signature="verifyAddComputerDetails()[pri:3, instance:testautomation.RegressionTests@17046283]" name="verifyAddComputerDetails" duration-ms="3691" started-at="2019-07-16T05:58:58Z" description="Verifies the addition of new computer" finished-at="2019-07-16T05:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddComputerDetails -->
+        <test-method status="PASS" signature="filterComputerName()[pri:4, instance:testautomation.RegressionTests@17046283]" name="filterComputerName" duration-ms="5898" started-at="2019-07-16T05:59:02Z" description="Verifies the search/filter functionality" finished-at="2019-07-16T05:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterComputerName -->
+        <test-method status="PASS" signature="updateRecord()[pri:5, instance:testautomation.RegressionTests@17046283]" name="updateRecord" duration-ms="3681" started-at="2019-07-16T05:59:07Z" description="Verifies the update functionality" finished-at="2019-07-16T05:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateRecord -->
+        <test-method status="PASS" signature="deleteComputer()[pri:6, instance:testautomation.RegressionTests@17046283]" name="deleteComputer" duration-ms="1711" started-at="2019-07-16T05:59:11Z" description="Verifies the delete functionality" finished-at="2019-07-16T05:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComputer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testautomation.RegressionTests@17046283]" name="tearDown" is-config="true" duration-ms="1117" started-at="2019-07-16T05:59:17Z" finished-at="2019-07-16T05:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testautomation.RegressionTests -->
+    </test> <!--  CRUD operations Regression Tests  -->
+  </suite> <!-- Suite -->
+</testng-results>

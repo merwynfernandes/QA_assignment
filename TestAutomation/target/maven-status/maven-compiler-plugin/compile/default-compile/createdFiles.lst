@@ -1,0 +1,4 @@
+testautomation\AddComputerPage.class
+testautomation\LandingPage.class
+resources\Base.class
+resources\ExtentReporterNG.class
