@@ -5,7 +5,7 @@ This submission contains Manual Test cases in the "Manual_Test_Cases.xlsx" sprea
 ### Prerequisites
 The view the spreadsheet Microsoft Excel needs to installed. 
 
-To execute the automated suite, latest stable build of chrome browser and maven should be installed in the system.
+To execute the automated suite, latest stable build of chrome browser(Currently v75) and maven should be installed in the system.
 
 ## Project overview
 
