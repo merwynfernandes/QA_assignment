@@ -1,6 +1,6 @@
 ## Assignment
 
-This submission contains Manual Test cases in the "Manual_Test_Cases.xlsx" spreadsheet and the TestAutomation repo which contains the automated regression suite to cover the CRUD operations.
+This contains Manual Test cases in the "Manual_Test_Cases.xlsx" spreadsheet and the TestAutomation repo which contains the automated regression suite to cover the CRUD operations.
 
 ### Prerequisites
 The view the spreadsheet Microsoft Excel needs to installed. 
@@ -67,7 +67,7 @@ Modify the testng.xml as below by uncommenting the "methods" block and add the d
 			</run>
 		</groups>
 		<classes>
-			<class name="testautomation.RegressionTests" >111
+			<class name="testautomation.RegressionTests" >
 
 			<methods>
 					<include name= "filterComputerName"/>
@@ -75,7 +75,7 @@ Modify the testng.xml as below by uncommenting the "methods" block and add the d
 			</methods>		
 			
 			</class>
-1
+
 		</classes>
 	
 
